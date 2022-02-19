@@ -1,0 +1,949 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+	
+<!-- Mirrored from nassar.netlify.app/index_2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Feb 2022 11:46:22 GMT -->
+
+<head>
+		<!-- META DATA -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- TITLE OF SITE -->
+		<title>Oyetola's Portfolio</title>
+
+	    <!-- favicon -->
+	    <link id="favicon" rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
+
+        <!-- Google Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900%7CPoppins:300,400,500,600&amp;display=swap">
+
+        <!-- Bootstrap css -->
+		<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+
+        <!-- splitlayout.css -->
+        <link rel="stylesheet" href="{% static 'css/animations.css' %}">
+
+        <!-- slick css -->
+        <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+        <link rel="stylesheet" href="{% static 'css/slick-theme.css' %}">
+
+        <!-- magnific-popup.css -->
+        <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+        <!-- font-awesome.min.css -->
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/pe-icon-7-stroke.min.css' %}">
+
+        <!-- Main style css -->
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <!-- Responsive css -->
+        <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+
+        <!-- Main Color -->
+        <link rel="stylesheet" href="{% static 'css/color.css' %}">
+
+        
+	</head>
+
+	<body class="small_menu">
+		<div id="page" class="site">
+
+		    <!--Start Preloader-->
+		    <div class="page-loader startLoad">
+		      <div class="loader startLoad"></div>
+		    </div>
+		    <!--End Preloader-->
+
+		    <div id="splitlayout" class="splitlayout close-right">
+				<div class="intro">
+					    
+	                <div class="side side-left" style="background-image: url('{% static "images/home-bg2.jpg" %}');">
+					    <!--Start Home-->
+					    <div class="home_type full-height home__menu">
+					        <div class="overlayer text-center">
+					        	<div class="container">
+						            <div class="display-table">
+						                <div class="display-table-cell">
+						                    <h1 class="fit__text"><span id="typed"></span></h1>
+						                    <div id="typed-strings">
+												<!-- <span>Oyetola Taiwo</span> -->
+								    			<span>Welcome Here!</span>
+								    			<span>Explore my world</span>
+								    		</div>
+						                    <div class="more_info">
+												<a href="https://twitter.com/oyhetola" target="_blank" class="goToSec"><i class="fa fa-github"></i> Github</a>
+												<a href="https://www.linkedin.com/in/oyetola-taiwo" target="_blank" class="goToSec"><i class="fa fa-linkedin"></i> LinkedIn</a>
+											</div><!--.more_info-->
+						                </div><!--.display-table-cell-->
+						            </div><!--.display-table-->
+					            </div>
+					        </div><!--.overlayer-->
+					    </div><!--.home_type-->
+					    <!--End Home-->
+					</div><!--.side-->                
+					
+					
+
+	                <!--Start Menu-->
+	                <div class="mob-menu-overlay"></div>
+	                <div class="mob-menu">
+	                    <div class="mob-menu-content">
+	                        <div class="float-left">
+	                            <h3 class="menu-title">
+	                            	<a href="#">Oyetola Taiwo</a>
+	                            </h3>
+	                        </div>
+	                        <div class="float-right">
+	                            <button type="button" class="navbar-toggle collapsed">
+	                                <span class="sr-only">Toggle navigation</span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                            </button>
+	                        </div>
+	                    </div>
+	                </div>
+
+					<div class="side side-right">
+						<div class="home-lines">
+							<div class="linesContent">
+								<span class="home-line"></span>
+								<span class="home-line"></span>
+								<span class="home-line"></span>
+								<span class="home-line"></span>
+							</div>
+							<div class="lines--content">
+								<span class="home--line"></span>
+								<span class="home--line"></span>
+								<span class="home--line"></span>
+								<span class="home---line"></span>
+								<span class="home---line"></span>
+								<span class="home---line"></span>
+							</div>
+						</div>
+						<div class="intro-content">
+							<div class="profile">
+	                            <img src="{% static 'images/favicon.png' %}" alt="author">
+	                        </div>
+							<h2>
+	                            <span>Oyetola Taiwo</span>
+	                        </h2>
+							<div class="menu">
+	                            <div class="social-icons">
+	                                <a href="https://twitter.com/oyhetola" target="_blank">
+	                                    <i class="fa fa-twitter"></i>
+	                                </a>
+	                                <a href="https://www.linkedin.com/in/oyetola-taiwo" target="_blank">
+	                                    <i class="fa fa-linkedin"></i>
+	                                </a>
+	                                <a href="https://github.com/toyetola">
+	                                    <i class="fa fa-github"></i>
+	                                </a>
+	                            
+	                            </div>
+	                            <!--Menu Items-->
+								<ul id="menu" class="list-unstyled menu_list">
+									<li class="menu-item ">
+										<a href="#home" class="active_item">home</a>
+									</li>
+									<li class="menu-item ">
+										<a href="#about">about me</a>
+									</li>
+		
+									<!-- <li class="menu-item ">
+										<a href="#services">services</a>
+									</li> -->
+									<!-- <li class="menu-item ">
+										<a href="#portfolio">portfolio</a>
+									</li> -->
+									<li class="menu-item ">
+										<a href="#blog" target="_blank">my blog</a>
+									</li>
+									<li class="menu-item">
+										<a href="#contact">contact</a>
+									</li>
+								</ul>
+							</div><!--.menu-->
+						</div><!--.intro-content-->
+					</div><!--.side-->
+	                <!--End Menu-->
+				</div><!-- /intro -->
+		
+
+
+				<div class="pag-e page-right">
+				    <div id="pt-main" class="pt-perspective page-inner">
+
+
+				    	<!--Start About Section-->
+						<section class="about pt-page" id="about">
+						    <div class="scroll__content"> 
+						        <div class="sec_title">
+						        	<h2>About Me</h2>
+						        </div>        
+						        <div class="sec__content">
+						        	<div class="container">
+						        		<div class="row">
+											<!-- <div class="col-xs-12 col-sm-4">
+										    	<img src="{% static 'images/author.jpg' %}" class="full_width about__img" alt="author">
+											</div> -->
+											<div class="col-xs-12 col-sm-12">
+												<div class="heading">
+													<h2><br>Software Engineer/DevOps Engineer</h2>	
+												</div>
+												<p>I have about 5 years experience in designing and devoloping software systems at different levels of complexities. I have gathered enough experience in database design, system architecture, vertical and horizonatal scaling, containerization and efficient delivery of software applications.</p>
+												<p>While developing defferent software accross industries like education, consulting, management, human resource, finance etc. I have been priviledge to take roles that helped me understand every bit of the software development lifecycle. More recently, I am focusing on building, managing and scaling cloud-native applications at cost-effective and compute resource-efficient ways.</p>
+												
+												<!--Social links-->
+												<div class="social-icons">
+												    <a target="_blank" href="https://twitter.com/oyhetola"><i class="fa fa-twitter"></i></a>
+												    <a target="_blank" href="https://"><i class="fa fa-linkedin"></i></a>
+												</div>
+
+											</div>
+										</div>
+
+										<!-- Skills -->
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												<h3 class="subtitle margin-top-55">My Skills
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="skills">
+
+													<!-- Skill 1 -->
+											        <div class="skill">
+											            <span>PHP</span>
+											            <span class="percentage">90%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+											        <!-- Skill 2 -->
+											        <div class="skill">
+											            <span>Python</span>
+											            <span class="percentage">82%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+											        <!-- Skill 3 -->
+													<div class="skill">
+											            <span>JavaScript</span>
+											            <span class="percentage">85%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+											        
+
+													<!-- Skill 4 -->
+											        <div class="skill">
+											            <span>CI/CD (Github Action, Bitbucket Pipeline)</span>
+											            <span class="percentage">94%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+													<!-- Skill 4 -->
+											        <div class="skill">
+											            <span>GCP [Compute Engine, App Engine, Kubernetes Engine, Cloud Run]</span>
+											            <span class="percentage">94%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+												</div><!--.skills-->
+											</div>
+											<div class="col-xs-12 col-sm-6">
+												<h3 class="subtitle margin-top-55">
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="skills">
+
+													<!-- Skill 1 -->
+											        <div class="skill">
+											            <span>Docker</span>
+											            <span class="percentage">93%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+											        <!-- Skill 2 -->
+											        <div class="skill">
+											            <span>Stackdriver/DataDog</span>
+											            <span class="percentage">86%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+											        <!-- Skill 3 -->
+											        <div class="skill">
+											            <span>Kubernetes</span>
+											            <span class="percentage">77%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+													<!-- Skill 4 -->
+											        <div class="skill">
+											            <span>AWS [Cloudformation, Codepipeline, Codebuil, EBS, EC2, EKS]</span>
+											            <span class="percentage">70%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+													<!-- Skill 5 -->
+											        <div class="skill">
+											            <span>APIs</span>
+											            <span class="percentage">95%</span>
+											            <div class="progress_bg">
+											                <div class="progress_bar"></div>
+											            </div>
+											        </div>
+
+												</div><!--.skills-->
+											</div>
+										</div>
+
+
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End About Section-->
+
+
+						<!--Start Resume Section-->
+						<section class="resume pt-page" id="resume">
+						    <div class="scroll__content">     
+						        <div class="sec_title">
+						        	<h2>My Resume</h2>
+						        </div>        
+						        <div class="sec__content">
+						        	<div class="container">
+						                    	
+										<div class="row">
+
+											<!--Education-->
+											<div class="col-xs-12 col-sm-6">
+												<h3 class="subtitle ">Education
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="resume">
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2011 - 2013</span>
+												        </div>
+												        <div class="content">
+												            <h4>Educational Specialist</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2008 - 2010</span>
+												        </div>
+												        <div class="content">
+												            <h4>Doctoral Degree</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2005 - 2007</span>
+												        </div>
+												        <div class="content">
+												            <h4>Master Degree</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2000 - 2004</span>
+												        </div>
+												        <div class="content">
+												            <h4>Bachelor Degree</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												</div>
+											</div>
+
+											<!--Experience-->
+											<div class="col-xs-12 col-sm-6 mob-margin-top-30">
+												<h3 class="subtitle">Experience
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+												<div class="resume">
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2016 - Present</span>
+												        </div>
+												        <div class="content">
+												            <h4>Lead Web Developer</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2012 - 2015</span>
+												        </div>
+												        <div class="content">
+												            <h4>Senior Web Developer</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2010 - 2011</span>
+												        </div>
+												        <div class="content">
+												            <h4>Junior Web Developer</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												    <div class="item">
+												        <div class="date">
+												            <span>2008 - 2009</span>
+												        </div>
+												        <div class="content">
+												            <h4>Web Developer</h4>
+												            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+												        </div>
+												    </div>
+
+												</div>
+											</div>
+										</div><!--.row-->
+
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Resume Section-->
+
+
+						<!--Start Services Section-->
+						<section class="services pt-page" id="services">
+						    <div class="scroll__content">
+						        <div class="sec_title">
+						        	<h2>Services</h2>
+						        </div>
+						        <div class="sec__content">
+						        	<div class="container">
+						        		<div class="row">
+
+						        			<!--Service 1-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'images/services/serv-1.png' %}" alt="">   
+												            </div>
+												            <div class="service_content">
+												                <h3>Web Design</h3>
+												                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+											<!--Service 2-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'images/services/serv-2.png' %}" alt="">
+												            </div>
+												            <div class="service_content">
+												                <h3>Development</h3>
+												                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+										</div>
+										<div class="row">
+
+											<!--Service 3-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'images/services/serv-3.png' %}" alt="">       
+												            </div>
+												            <div class="service_content">
+												                <h3>Brand Building</h3>
+												                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+											<!--Service 4-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'images/services/serv-4.png' %}" alt="">
+												            </div>
+												            <div class="service_content">
+												                <h3>Clean Code</h3>
+												                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+										</div>		
+										<div class="row">
+
+											<!--Service 5-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'images/services/serv-5.png' %}" alt="">     
+												            </div>
+												            <div class="service_content">
+												                <h3>Mobile apps</h3>
+												                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+											<!--Service 6-->
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+												    <div class="item">
+												        <div class="content">
+												            <div class="font-icon">
+												                <img src="{% static 'images/services/serv-6.png' %}" alt="">       
+												            </div>
+												            <div class="service_content">
+												                <h3>Retina Ready</h3>
+												                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+											</div>
+
+										</div>
+
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Services Section-->
+
+
+						<!--Start Portfolio Section-->
+						<section class="portfolio_sec pt-page" id="portfolio">
+							<div class="scroll__content">
+						        <div class="sec_title">
+						        	<h2>Portfolio</h2>
+						        </div>        
+								<div class="sec__content">
+								    <div class="container">
+										<div class="portfolio_sec">
+											<div class="portfolio">
+											    <ul class="list-unstyled ul-filter">
+											        <li data-filter="*" class="active_filter">all</li>
+											        <li data-filter=".coding">coding</li>
+											        <li data-filter=".design">design</li><li data-filter=".logo">logo</li>		    
+											    </ul>
+											</div>
+
+											<div class="row grid portfolio">
+
+												<!--project 1 (Project popup)-->
+												<div class="col-xs-12 col-sm-6 item grid-item design">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'images/works/work-1.jpg' %}" alt="" />   
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a class="popup-with-zoom-anim ajax_popup" href="portfolio-ajax-popup/project-1.html">
+												                    <h3>Project Popup</h3>
+												                    <p>design</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-folder"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+
+												<!--project 2 (Image Overlay)-->
+												<div class="col-xs-12 col-sm-6 item grid-item coding">
+												    <div class="project_content">
+												        <div class="my_img" data-mfp-src="images/works/work-2.jpg">
+												            <img src="{% static 'images/works/work-2.jpg' %}" alt="" />
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a href="#" class="image_overlay">
+												                    <h3>Image Overlay</h3>
+												                    <p>coding</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-photo"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+
+												<!--project 3 (Youtube Video)-->
+												<div class="col-xs-12 col-sm-6 item grid-item design">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'images/works/work-3.jpg' %}" alt="" />    
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a href="https://www.youtube.com/watch?v=uQBL7pSAXR8" class="video-popup">
+												                    <h3>Youtube Video</h3>
+												                    <p>design</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-film"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+
+												<!--project 4 (Vimeo Video)-->
+												<div class="col-xs-12 col-sm-6 item grid-item logo">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="images/works/work-4.jpg" alt="" />  
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a href="https://vimeo.com/45830194" class="video-popup">
+												                    <h3>Vimeo Video</h3>
+												                    <p>logo</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-film"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+
+												    </div>
+												</div>
+
+												<!--project 5 (Sound Cloud)-->
+												<div class="col-xs-12 col-sm-6 item grid-item sound---cloud coding">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="{% static 'images/works/work-6.jpg' %}" alt="" />    
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">        
+												                <a href="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F336799284&amp;show_artwork=true" class="video-popup sound---cloud-url">
+												                    <h3>Sound Cloud</h3>
+												                    <p>coding</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-volume"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<!--project 6 (open url)-->
+												<div class="col-xs-12 col-sm-6 item grid-item logo">
+												    <div class="project_content">
+												        <div class="my__img">
+												            <img src="images/works/work-5.jpg" alt="" />        
+												        </div>
+
+												        <div class="info">
+												            <div class="info-content">
+												                <a href="http://www.google.com/" target="_blank">
+												                    <h3>Project website</h3>
+												                    <p>logo</p>
+												                    <div class="icon">
+												                        <div class="wrapper">
+												                            <i class="pe-7s-link"></i>
+												                        </div>
+												                    </div>
+												                </a>
+												            </div>
+												        </div>
+												        
+												    </div>
+												</div>
+
+											</div><!--.row-->
+										</div><!--.portfolio_sec-->
+								    </div><!--.container-->
+								</div><!--.sec__content-->
+							</div><!--.scroll__content-->
+						</section>
+						 <!--End Portfolio Section-->
+
+
+						<!--Start Blog Section-->
+						<section class="blog pt-page" id="blog">
+						    <div class="scroll__content">
+						        <div class="sec_title">
+						        	<h2>My Blog</h2>
+						        </div>        
+						        <div class="sec__content">
+						        	<div class="container">
+										<div class="blog">
+										    <div class="row posts-row blog-grid" id="getBlog">
+										        
+										    </div><!--.row-->
+										</div><!--.blog-->
+
+										<a href="#" target="_self" class="btn load-more">Load More</a>
+
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Blog Section-->
+
+
+						<!--Start Contact Section-->
+						<section class="contact pt-page" id="contact">
+						    <div class="scroll__content"> 
+						        <div class="sec_title">
+						        	<h2>Contact Me</h2>
+						        </div>       
+						        <div class="sec__content">
+						        	<div class="container">
+						        		<div class="row">
+											<!-- <div class="col-xs-12 col-sm-5">
+											
+												<h3 class="subtitle ">Location
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+					                            <!\-- google map --\>
+					                            <div id="map" style="min-height: 400px">
+					                            </div>
+
+											</div> -->
+											<div class="col-xs-12 col-sm-12">
+												
+												<h3 class="subtitle ">Contact Form
+													<svg viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												        <g class="Web">
+												            <g class="Header">
+												                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+												            </g>
+												        </g>
+												    </svg>
+												</h3>
+		                                        <div class="contact_form">
+		                                            <form action="https://nassar.netlify.app/send.php" method="post">
+		                                                <input placeholder="Name" name="name" type="text" class="form-control">
+		                                                <input placeholder="E-mail" name="email" type="email" class="form-control">
+		                                                <textarea placeholder="Message" name="message" class="form-control"></textarea>
+		                                                <button class="submit btn">Send Message</button>
+
+		                                                <!--Contact form message-->
+		                                                <div class="msg_success"><p>Your message has been sent. Thank you!</p></div>
+		                                                <div class="msg_error"><p>Sorry your message can not be sent.</p></div>
+		                                                <!--End contact form message-->
+
+		                                            </form>
+		                                        </div>
+
+											</div>
+										</div><!--.row-->
+										<div class="contact-info margin-top-55 text-center">
+											<div class="row">
+												<div class="col-sm-4">
+													<div class="item">
+														<i class="pe-7s-map-marker pe-3x pe-va icon"></i>
+														<p>World</p>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="item">
+														<i class="pe-7s-mail pe-3x pe-va icon"></i>
+														<p></p>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="item">
+														<i class="pe-7s-call pe-3x pe-va icon"></i>
+														<p></p>
+													</div>
+												</div>
+											</div>
+										</div>
+						            </div><!--.container-->
+						        </div><!--.sec__content-->
+						    </div><!--.scroll__content-->
+						</section>
+						<!--End Contact Section-->
+
+
+				    </div><!--.page-inner-->
+				</div><!--.page-right-->
+			</div><!--.splitlayout-->
+		</div><!-- #page -->
+
+
+		<script src='{% static "js/jquery.min.js" %}'></script>
+		<script src='{% static "js/jquery.matchHeight-min.js" %}'></script>
+		<script src='{% static "js/modernizr-custom.js" %}'></script>
+		<script src='{% static "js/pagetransitions.js" %}'></script>
+		<script src='{% static "js/typed.min.js" %}'></script>
+		<script src='{% static "js/slick.js" %}'></script>
+		<script src='{% static "js/bootstrap.min.js" %}'></script>
+		<script src='{% static "js/imagesloaded.pkgd.min.js" %}'></script>
+		<script src='{% static "js/isotope.pkgd.min.js" %}'></script>
+		<script src='{% static "js/jquery.fittext.js" %}'></script>
+		<script src='{% static "js/jquery.magnific-popup.min.js" %}'></script>
+        <!-- Google maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCABUipchxBy5ubGg0ajToD30sX9KhcCBQ"></script>
+		<script src='{% static "js/custom.js" %}'></script>
+		<script>
+			fetch('https://api.hashnode.com/', {
+				method: 'POST',
+
+				headers: {
+					"Content-Type": "application/json"
+				},
+
+				body: JSON.stringify({
+					query: `{
+						user(username:"oyhetola") {
+						publication {
+							posts (page:0) {
+							title
+							slug
+							cuid
+							coverImage
+							dateAdded
+							}
+						}
+						}
+					}`
+				})
+			})
+			.then(res => res.json())
+			.then(res => {
+				let ourresponse = res.data.user.publication.posts
+				for (i=0; i < ourresponse.length; i++){
+					console.log(ourresponse[i])
+					published = new Date(ourresponse[i].dateAdded)
+					document.getElementById('getBlog').innerHTML += `<div class="col-sm-6 col-xs-12 grid-item">
+							<div class="item">
+								<a href="https://blog.oyetotaiwo.com/`+ourresponse[i].slug+`" target="_blank">
+									<div class="blog__img">
+										<i class="pe-7s-news-paper"></i>
+										<img src="`+ourresponse[i].coverImage+`" alt="">
+									</div>
+								</a>		                
+								<div class="content matchH">
+									<p class="info">`+published.getDate()+'/'+published.getMonth()+'/'+published.getFullYear()+`</p>
+										<h3>
+										    <a href="https://blog.oyetolataiwo.com/`+ourresponse[i].slug+`" target="_blank">`+ourresponse[i].title+`</a>
+										</h3>
+								</div>
+							</div>
+						</div>`
+				}
+			})
+
+		
+		</script>
+
+	</body>
+
+
+</html>
