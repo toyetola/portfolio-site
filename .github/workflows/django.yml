@@ -28,7 +28,6 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
-    steps:
     - uses: 'google-github-actions/auth@v0.4.0'
       with:
         workload_identity_provider: '${{ secrets.WIF_PROVIDER_NAME }}'
