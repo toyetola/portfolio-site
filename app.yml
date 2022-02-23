@@ -1,4 +1,5 @@
 runtime: python39 # or another supported version
+entrypoint: gunicorn -b :$PORT personal.wsgi.application
 
 instance_class: F2
 
