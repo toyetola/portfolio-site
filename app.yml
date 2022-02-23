@@ -5,8 +5,8 @@ instance_class: F2
 
 handlers:
 # Matches requests to /images/... to files in static/images/...
-- url: /static
-  static_dir: static/images
+- url: ./portfolio/static
+  static_dir: ./portfolio/static/images
 
 - url: /.*
   secure: always
