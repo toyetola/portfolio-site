@@ -50,6 +50,7 @@ jobs:
           push: true
           tags: oyhetola/portfolio:latest
   pull on server:
+    runs-on: ubuntu-latest
     steps:
       -
         name: get codes
