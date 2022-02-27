@@ -906,6 +906,7 @@ span.home--line:nth-child(3){
 
 .mob-menu .menu-title a {
     color: inherit;
+    display: inline !important;
 }
 
 .navbar-toggle {
