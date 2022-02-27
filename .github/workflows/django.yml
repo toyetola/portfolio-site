@@ -49,5 +49,14 @@ jobs:
         with:
           push: true
           tags: oyhetola/portfolio:latest
-  
-    
+  pull on server:
+    steps:
+      -
+        name: get codes
+        uses: appleboy/ssh-action@master
+        with:
+          username: ${{ secrets.SSH_USERNAME }}
+          host: ${{ secrets.SSH_HOST }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: ${{ secrets.SSH_PORT }}
+          script: 'cd /home/oyetydmm/porfolio && sh pullcodes.sh' 
